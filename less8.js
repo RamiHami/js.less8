@@ -6,7 +6,7 @@ alert(a);               //undefined
 var b = function a(x) {
     x && a(--x);
 };
-alert(a);               //вызов переменной, not defined
+alert(a);               //вызов переменной, not defined 
 
 function a(x) {
     return x * 2;
